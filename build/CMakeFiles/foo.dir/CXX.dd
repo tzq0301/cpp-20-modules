@@ -1,4 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles/foo.dir/foo.cpp.o | CMakeFiles/foo.dir/foo.pcm: dyndep
-  restat = 1
-

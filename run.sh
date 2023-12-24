@@ -1,1 +1,0 @@
-CXX=/opt/homebrew/opt/llvm/bin/clang++ cmake -GNinja -B build && cd build && ninja -v && ./demo || cd -

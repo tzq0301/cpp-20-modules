@@ -1,4 +1,0 @@
-/Users/tzq0301/Code/C++/module/build/CMakeFiles/foo.dir
-/Users/tzq0301/Code/C++/module/build/CMakeFiles/demo.dir
-/Users/tzq0301/Code/C++/module/build/CMakeFiles/edit_cache.dir
-/Users/tzq0301/Code/C++/module/build/CMakeFiles/rebuild_cache.dir

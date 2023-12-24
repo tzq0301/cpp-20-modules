@@ -1,0 +1,2 @@
+-x c++-module
+-fmodule-output=CMakeFiles/foo.dir/foo.pcm

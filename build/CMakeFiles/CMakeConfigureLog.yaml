@@ -1,0 +1,184 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Darwin - 22.6.0 - arm64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/opt/llvm/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /Users/tzq0301/Code/C++/module/build/CMakeFiles/3.28.1/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/tzq0301/Code/C++/module/build/CMakeFiles/CMakeScratch/TryCompile-LfiCJ7"
+      binary: "/Users/tzq0301/Code/C++/module/build/CMakeFiles/CMakeScratch/TryCompile-LfiCJ7"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/opt/homebrew/Cellar/llvm/17.0.5/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/homebrew/opt/llvm/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: "13.6"
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/tzq0301/Code/C++/module/build/CMakeFiles/CMakeScratch/TryCompile-LfiCJ7'
+        
+        Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_8a405
+        [1/2] /opt/homebrew/opt/llvm/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6   -v -Wl,-v -MD -MT CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Homebrew clang version 17.0.5
+        Target: arm64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm/bin
+        clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         (in-process)
+         "/opt/homebrew/Cellar/llvm/17.0.5/bin/clang-17" -cc1 -triple arm64-apple-macosx13.6.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=14.0 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/tzq0301/Code/C++/module/build/CMakeFiles/CMakeScratch/TryCompile-LfiCJ7 -resource-dir /opt/homebrew/Cellar/llvm/17.0.5/lib/clang/17 -dependency-file CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -canonical-system-headers -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -internal-isystem /opt/homebrew/opt/llvm/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/17.0.5/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include -fdeprecated-macro -fdebug-compilation-dir=/Users/tzq0301/Code/C++/module/build/CMakeFiles/CMakeScratch/TryCompile-LfiCJ7 -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 17.0.5 based upon LLVM 17.0.5 default target arm64-apple-darwin22.6.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/opt/llvm/bin/../include/c++/v1
+         /opt/homebrew/Cellar/llvm/17.0.5/lib/clang/17/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        [2/2] : && /opt/homebrew/opt/llvm/bin/clang++ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl,-v CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8a405   && :
+        Homebrew clang version 17.0.5
+        Target: arm64-apple-darwin22.6.0
+        Thread model: posix
+        InstalledDir: /opt/homebrew/opt/llvm/bin
+         "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/17.0.5/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.6.0 14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk -o cmTC_8a405 -L/opt/homebrew/opt/llvm/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /opt/homebrew/Cellar/llvm/17.0.5/lib/clang/17/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:dyld-1015.7
+        BUILD 18:48:48 Aug 22 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 17.0.5 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.3)
+        Library search paths:
+        	/opt/homebrew/opt/llvm/lib
+        Framework search paths:
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/homebrew/opt/llvm/bin/../include/c++/v1]
+          add: [/opt/homebrew/Cellar/llvm/17.0.5/lib/clang/17/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include]
+        end of search list found
+        collapse include dir [/opt/homebrew/opt/llvm/bin/../include/c++/v1] ==> [/opt/homebrew/opt/llvm/include/c++/v1]
+        collapse include dir [/opt/homebrew/Cellar/llvm/17.0.5/lib/clang/17/include] ==> [/opt/homebrew/Cellar/llvm/17.0.5/lib/clang/17/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include]
+        implicit include dirs: [/opt/homebrew/opt/llvm/include/c++/v1;/opt/homebrew/Cellar/llvm/17.0.5/lib/clang/17/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/Users/tzq0301/Code/C++/module/build/CMakeFiles/CMakeScratch/TryCompile-LfiCJ7']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/ninja -v cmTC_8a405]
+        ignore line: [[1/2] /opt/homebrew/opt/llvm/bin/clang++   -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6   -v -Wl -v -MD -MT CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Homebrew clang version 17.0.5]
+        ignore line: [Target: arm64-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/homebrew/opt/llvm/bin]
+        ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ (in-process)]
+        ignore line: [ "/opt/homebrew/Cellar/llvm/17.0.5/bin/clang-17" -cc1 -triple arm64-apple-macosx13.6.0 -Wundef-prefix=TARGET_OS_ -Werror=undef-prefix -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -ffp-contract=on -fno-rounding-math -funwind-tables=1 -target-sdk-version=14.0 -fcompatibility-qualified-id-block-type-checking -fvisibility-inlines-hidden-static-local-var -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +lse -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sha2 -target-feature +sha3 -target-feature +neon -target-feature +zcm -target-feature +zcz -target-feature +fullfp16 -target-abi darwinpcs -debugger-tuning=lldb -target-linker-version 857.1 -v -fcoverage-compilation-dir=/Users/tzq0301/Code/C++/module/build/CMakeFiles/CMakeScratch/TryCompile-LfiCJ7 -resource-dir /opt/homebrew/Cellar/llvm/17.0.5/lib/clang/17 -dependency-file CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -canonical-system-headers -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -internal-isystem /opt/homebrew/opt/llvm/bin/../include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include -internal-isystem /opt/homebrew/Cellar/llvm/17.0.5/lib/clang/17/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include -fdeprecated-macro -fdebug-compilation-dir=/Users/tzq0301/Code/C++/module/build/CMakeFiles/CMakeScratch/TryCompile-LfiCJ7 -ferror-limit 19 -stack-protector 1 -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -fmax-type-align=16 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/Cellar/cmake/3.28.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 17.0.5 based upon LLVM 17.0.5 default target arm64-apple-darwin22.6.0]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/opt/llvm/bin/../include/c++/v1]
+        ignore line: [ /opt/homebrew/Cellar/llvm/17.0.5/lib/clang/17/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] : && /opt/homebrew/opt/llvm/bin/clang++ -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -mmacosx-version-min=13.6 -Wl -search_paths_first -Wl -headerpad_max_install_names -L/opt/homebrew/opt/llvm/lib -v -Wl -v CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8a405   && :]
+        ignore line: [Homebrew clang version 17.0.5]
+        ignore line: [Target: arm64-apple-darwin22.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /opt/homebrew/opt/llvm/bin]
+        link line: [ "/usr/bin/ld" -demangle -lto_library /opt/homebrew/Cellar/llvm/17.0.5/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 13.6.0 14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk -o cmTC_8a405 -L/opt/homebrew/opt/llvm/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /opt/homebrew/Cellar/llvm/17.0.5/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+          arg [/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/opt/homebrew/Cellar/llvm/17.0.5/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [13.6.0] ==> ignore
+          arg [14.0] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_8a405] ==> ignore
+          arg [-L/opt/homebrew/opt/llvm/lib] ==> dir [/opt/homebrew/opt/llvm/lib]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_8a405.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/opt/homebrew/Cellar/llvm/17.0.5/lib/clang/17/lib/darwin/libclang_rt.osx.a] ==> lib [/opt/homebrew/Cellar/llvm/17.0.5/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        Library search paths: [;/opt/homebrew/opt/llvm/lib]
+        remove lib [System]
+        remove lib [/opt/homebrew/Cellar/llvm/17.0.5/lib/clang/17/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+        collapse library dir [/opt/homebrew/opt/llvm/lib] ==> [/opt/homebrew/opt/llvm/lib]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/opt/llvm/lib]
+        implicit fwks: []
+      
+      
+...

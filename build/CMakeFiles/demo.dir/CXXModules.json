@@ -1,0 +1,12 @@
+{
+	"modules" : {},
+	"references" : 
+	{
+		"foo" : 
+		{
+			"lookup-method" : "by-name",
+			"path" : "CMakeFiles/foo.dir/foo.pcm"
+		}
+	},
+	"usages" : {}
+}

@@ -1,0 +1,19 @@
+# ninja log v5
+121	670	1703422878466467072	CMakeFiles/foo.dir/foo.cxx.o	65ea875269524894
+69	76	1703423036710039058	/Users/tzq0301/Code/C++/module/build/CMakeFiles/demo.dir/CXXModules.json	115f8234cd95b8a
+599	629	1703423037263172000	libfoo.a	4c4617e043ff809d
+0	62	1703423036693358745	CMakeFiles/foo.dir/foo.cpp.o.ddi	24c07184063c5a65
+69	598	1703423037229179775	CMakeFiles/foo.dir/foo.pcm	2a0aa21a1099b869
+77	83	1703422907473584496	CMakeFiles/demo.dir/main.cxx.o.modmap	e8b99ad63d971763
+62	69	1703423036702704049	CMakeFiles/foo.dir/CXX.dd	f3b0b1491d22258
+629	691	1703423037323476974	demo	ea9d780b0b7fdbc0
+8	70	1703422907457038975	CMakeFiles/foo.dir/foo.cxx.o.ddi	5d3ac53efa96e477
+62	69	1703423036702704049	/Users/tzq0301/Code/C++/module/build/CMakeFiles/foo.dir/CXXModules.json	f3b0b1491d22258
+8	32	1703422907419814138	CMakeFiles/demo.dir/main.cxx.o.ddi	a96c22484363f8cf
+600	624	1703423037257141726	CMakeFiles/demo.dir/main.cpp.o	58e15660fb107c78
+1	24	1703423036655860616	CMakeFiles/demo.dir/main.cpp.o.ddi	58d0ab3fe3b8222a
+69	76	1703423036710039058	CMakeFiles/demo.dir/CXX.dd	115f8234cd95b8a
+70	76	1703422907466486904	CMakeFiles/foo.dir/foo.cxx.o.modmap	d7c400e70df2c16d
+62	69	1703423036702704049	CMakeFiles/foo.dir/foo.cpp.o.modmap	f3b0b1491d22258
+69	76	1703423036710039058	CMakeFiles/demo.dir/main.cpp.o.modmap	115f8234cd95b8a
+69	598	1703423037229179775	CMakeFiles/foo.dir/foo.cpp.o	2a0aa21a1099b869
